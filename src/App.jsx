@@ -1,5 +1,5 @@
 import './App.css';
-
+import logo from './assets/codeo-logo.png';
 function App() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -10,7 +10,7 @@ function App() {
     <>
       <div className='form-container'>
         <div className='codeo-img-container'>
-          <img src='dist/assets/codeo-logo.png' alt='logo-codeo' />
+          <img src={logo} alt='logo-codeo' />
         </div>
         <form className='signIn-form' onSubmit={handleFormSubmit}>
           <div className='client-id-container'>
