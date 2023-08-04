@@ -1,9 +1,7 @@
 label {
   font-size: (19px, 2.6vw, 22px);
-  display: flex;
   font-weight: 700;
-  align-items: center;
-  justify-content: space-between;
+  display: flex;
 }
 
 input {
