@@ -1,0 +1,47 @@
+label {
+  font-size: (19px, 2.6vw, 22px);
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  max-width: 100%;
+  margin-bottom: 2em;
+  border: none;
+  font-weight: 400;
+  border-radius: 8px;
+  transition: 300ms all;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: 0 0 8px #646cff;
+}
+
+img {
+  display: block;
+  max-width: 261px;
+}
+
+.form-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signIn-form {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.client-id,
+.client-secret {
+  padding: clamp(10px, 4vh, 14px);
+}
