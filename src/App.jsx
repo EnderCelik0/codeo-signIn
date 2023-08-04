@@ -10,7 +10,7 @@ function App() {
     <>
       <div className='form-container'>
         <div className='codeo-img-container'>
-          <img src='src\assets\codeo-logo.png' alt='logo-codeo' />
+          <img src='dist/assets/codeo-logo.png' alt='logo-codeo' />
         </div>
         <form className='signIn-form' onSubmit={handleFormSubmit}>
           <div className='client-id-container'>
