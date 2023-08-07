@@ -5,8 +5,7 @@ label {
 }
 
 input {
-  max-width: 100%;
-  margin-bottom: 2em;
+  min-width: 211px;
   border: none;
   font-weight: 400;
   border-radius: 8px;
@@ -42,4 +41,13 @@ img {
 .client-id,
 .client-secret {
   padding: clamp(10px, 4vh, 14px);
+}
+
+.client-secret-container {
+  margin-top: 1.5em;
+}
+
+.input-error {
+  margin: 0.5em 0;
+  color: #ff3333;
 }
